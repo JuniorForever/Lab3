@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 
 public class ScrewdrivTest {
 
-    @Test
+     @Test
     public void unleash() {
         String actual = Screwdriv.Unleash();
         String expected = "Раскрутить";
@@ -19,6 +19,5 @@ public class ScrewdrivTest {
         String actual = Screwdriv.Twist();
         String expected = "Закрутить";
         Assert.assertEquals(expected,actual);
-        Assert.fail();
     }
 }
